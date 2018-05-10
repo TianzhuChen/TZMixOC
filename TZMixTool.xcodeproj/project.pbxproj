@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8032FC57209C4604009A9753 /* TZMixCacheFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032FC56209C4604009A9753 /* TZMixCacheFile.m */; };
+		8032FC58209C4604009A9753 /* TZMixCacheFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032FC56209C4604009A9753 /* TZMixCacheFile.m */; };
+		8068120C20A17FB4003C7A14 /* TZMixFuncFunctionName.m in Sources */ = {isa = PBXBuildFile; fileRef = 8068120B20A17FB4003C7A14 /* TZMixFuncFunctionName.m */; };
+		8068120F20A1A097003C7A14 /* TZMixFuncPropertyName.m in Sources */ = {isa = PBXBuildFile; fileRef = 8068120E20A1A097003C7A14 /* TZMixFuncPropertyName.m */; };
+		8068121220A1AF10003C7A14 /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8068121120A1AF10003C7A14 /* NSString+Regex.m */; };
+		807984D0209F3D0D006F89C4 /* TZMixConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 807984CF209F3D0D006F89C4 /* TZMixConfig.m */; };
+		8083B7F0209AF53A000ED4D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8083B7EF209AF53A000ED4D8 /* AppDelegate.m */; };
+		8083B7F3209AF53A000ED4D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8083B7F2209AF53A000ED4D8 /* ViewController.m */; };
+		8083B7F5209AF53B000ED4D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8083B7F4209AF53B000ED4D8 /* Assets.xcassets */; };
+		8083B7F8209AF53B000ED4D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8083B7F6209AF53B000ED4D8 /* Main.storyboard */; };
+		8083B7FB209AF53B000ED4D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8083B7FA209AF53B000ED4D8 /* main.m */; };
+		8083B806209AF53C000ED4D8 /* TZMixToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8083B805209AF53C000ED4D8 /* TZMixToolTests.m */; };
+		8083B813209AF57E000ED4D8 /* JQFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8083B811209AF57E000ED4D8 /* JQFMDB.m */; };
+		8083B814209AF57E000ED4D8 /* JQFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8083B811209AF57E000ED4D8 /* JQFMDB.m */; };
+		8083B817209AF587000ED4D8 /* TZMixManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8083B815209AF587000ED4D8 /* TZMixManager.m */; };
+		8083B818209AF587000ED4D8 /* TZMixManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8083B815209AF587000ED4D8 /* TZMixManager.m */; };
+		8083B81C209AFE89000ED4D8 /* TZMixFuncClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = 8083B81B209AFE89000ED4D8 /* TZMixFuncClassName.m */; };
+		80A77B34209DA6B100D87954 /* TZMixFuncAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A77B33209DA6B100D87954 /* TZMixFuncAssets.m */; };
+		80F2BEE120A0499C00035A32 /* TZMixFuncRubbishCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F2BEE020A0499C00035A32 /* TZMixFuncRubbishCode.m */; };
+		80F2BEE420A04D4900035A32 /* TZMixFuncBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F2BEE320A04D4900035A32 /* TZMixFuncBase.m */; };
+		F2DC2EDA7ABB9C8A7C96F30F /* libPods-TZMixTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1790602F01ED806F5C8F95DE /* libPods-TZMixTool.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8083B802209AF53C000ED4D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8083B7E3209AF53A000ED4D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8083B7EA209AF53A000ED4D8;
+			remoteInfo = TZMixTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1790602F01ED806F5C8F95DE /* libPods-TZMixTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TZMixTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8032FC55209C4604009A9753 /* TZMixCacheFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZMixCacheFile.h; sourceTree = "<group>"; };
+		8032FC56209C4604009A9753 /* TZMixCacheFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZMixCacheFile.m; sourceTree = "<group>"; };
+		8068120A20A17FB4003C7A14 /* TZMixFuncFunctionName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZMixFuncFunctionName.h; sourceTree = "<group>"; };
+		8068120B20A17FB4003C7A14 /* TZMixFuncFunctionName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZMixFuncFunctionName.m; sourceTree = "<group>"; };
+		8068120D20A1A097003C7A14 /* TZMixFuncPropertyName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZMixFuncPropertyName.h; sourceTree = "<group>"; };
+		8068120E20A1A097003C7A14 /* TZMixFuncPropertyName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZMixFuncPropertyName.m; sourceTree = "<group>"; };
+		8068121020A1AF10003C7A14 /* NSString+Regex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
+		8068121120A1AF10003C7A14 /* NSString+Regex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		807984CE209F3D0D006F89C4 /* TZMixConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZMixConfig.h; sourceTree = "<group>"; };
+		807984CF209F3D0D006F89C4 /* TZMixConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZMixConfig.m; sourceTree = "<group>"; };
+		8083B7EB209AF53A000ED4D8 /* TZMixTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZMixTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8083B7EE209AF53A000ED4D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8083B7EF209AF53A000ED4D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8083B7F1209AF53A000ED4D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8083B7F2209AF53A000ED4D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8083B7F4209AF53B000ED4D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8083B7F7209AF53B000ED4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8083B7F9209AF53B000ED4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8083B7FA209AF53B000ED4D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8083B7FC209AF53B000ED4D8 /* TZMixTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TZMixTool.entitlements; sourceTree = "<group>"; };
+		8083B801209AF53C000ED4D8 /* TZMixToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZMixToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8083B805209AF53C000ED4D8 /* TZMixToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZMixToolTests.m; sourceTree = "<group>"; };
+		8083B807209AF53C000ED4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8083B811209AF57E000ED4D8 /* JQFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQFMDB.m; sourceTree = "<group>"; };
+		8083B812209AF57E000ED4D8 /* JQFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQFMDB.h; sourceTree = "<group>"; };
+		8083B815209AF587000ED4D8 /* TZMixManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMixManager.m; sourceTree = "<group>"; };
+		8083B816209AF587000ED4D8 /* TZMixManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMixManager.h; sourceTree = "<group>"; };
+		8083B81A209AFE89000ED4D8 /* TZMixFuncClassName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZMixFuncClassName.h; sourceTree = "<group>"; };
+		8083B81B209AFE89000ED4D8 /* TZMixFuncClassName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZMixFuncClassName.m; sourceTree = "<group>"; };
+		80A77B32209DA6B100D87954 /* TZMixFuncAssets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZMixFuncAssets.h; sourceTree = "<group>"; };
+		80A77B33209DA6B100D87954 /* TZMixFuncAssets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZMixFuncAssets.m; sourceTree = "<group>"; };
+		80F2BEDF20A0499C00035A32 /* TZMixFuncRubbishCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZMixFuncRubbishCode.h; sourceTree = "<group>"; };
+		80F2BEE020A0499C00035A32 /* TZMixFuncRubbishCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZMixFuncRubbishCode.m; sourceTree = "<group>"; };
+		80F2BEE220A04D4900035A32 /* TZMixFuncBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZMixFuncBase.h; sourceTree = "<group>"; };
+		80F2BEE320A04D4900035A32 /* TZMixFuncBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZMixFuncBase.m; sourceTree = "<group>"; };
+		90C0698440D33341BCD04DF0 /* Pods-TZMixTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZMixTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-TZMixTool/Pods-TZMixTool.release.xcconfig"; sourceTree = "<group>"; };
+		C4ECB532550E3F60E2CDABBF /* Pods-TZMixTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZMixTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TZMixTool/Pods-TZMixTool.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8083B7E8209AF53A000ED4D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DC2EDA7ABB9C8A7C96F30F /* libPods-TZMixTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8083B7FE209AF53C000ED4D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D9305DEF815772BDD767BCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1790602F01ED806F5C8F95DE /* libPods-TZMixTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69897B4FED1390A3D49223AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4ECB532550E3F60E2CDABBF /* Pods-TZMixTool.debug.xcconfig */,
+				90C0698440D33341BCD04DF0 /* Pods-TZMixTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8083B7E2209AF53A000ED4D8 = {
+			isa = PBXGroup;
+			children = (
+				8083B7ED209AF53A000ED4D8 /* TZMixTool */,
+				8083B804209AF53C000ED4D8 /* TZMixToolTests */,
+				8083B7EC209AF53A000ED4D8 /* Products */,
+				69897B4FED1390A3D49223AC /* Pods */,
+				2D9305DEF815772BDD767BCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8083B7EC209AF53A000ED4D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8083B7EB209AF53A000ED4D8 /* TZMixTool.app */,
+				8083B801209AF53C000ED4D8 /* TZMixToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8083B7ED209AF53A000ED4D8 /* TZMixTool */ = {
+			isa = PBXGroup;
+			children = (
+				8083B819209AFC36000ED4D8 /* Mix */,
+				8083B810209AF57E000ED4D8 /* JQFMDB */,
+				8083B7EE209AF53A000ED4D8 /* AppDelegate.h */,
+				8083B7EF209AF53A000ED4D8 /* AppDelegate.m */,
+				8083B7F1209AF53A000ED4D8 /* ViewController.h */,
+				8083B7F2209AF53A000ED4D8 /* ViewController.m */,
+				8083B7F4209AF53B000ED4D8 /* Assets.xcassets */,
+				8083B7F6209AF53B000ED4D8 /* Main.storyboard */,
+				8083B7F9209AF53B000ED4D8 /* Info.plist */,
+				8083B7FA209AF53B000ED4D8 /* main.m */,
+				8083B7FC209AF53B000ED4D8 /* TZMixTool.entitlements */,
+			);
+			path = TZMixTool;
+			sourceTree = "<group>";
+		};
+		8083B804209AF53C000ED4D8 /* TZMixToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				8083B805209AF53C000ED4D8 /* TZMixToolTests.m */,
+				8083B807209AF53C000ED4D8 /* Info.plist */,
+			);
+			path = TZMixToolTests;
+			sourceTree = "<group>";
+		};
+		8083B810209AF57E000ED4D8 /* JQFMDB */ = {
+			isa = PBXGroup;
+			children = (
+				8083B811209AF57E000ED4D8 /* JQFMDB.m */,
+				8083B812209AF57E000ED4D8 /* JQFMDB.h */,
+			);
+			path = JQFMDB;
+			sourceTree = "<group>";
+		};
+		8083B819209AFC36000ED4D8 /* Mix */ = {
+			isa = PBXGroup;
+			children = (
+				80B81DAB209DAAED001D05CE /* Func */,
+				8083B816209AF587000ED4D8 /* TZMixManager.h */,
+				8083B815209AF587000ED4D8 /* TZMixManager.m */,
+				8032FC55209C4604009A9753 /* TZMixCacheFile.h */,
+				8032FC56209C4604009A9753 /* TZMixCacheFile.m */,
+				807984CE209F3D0D006F89C4 /* TZMixConfig.h */,
+				807984CF209F3D0D006F89C4 /* TZMixConfig.m */,
+			);
+			path = Mix;
+			sourceTree = "<group>";
+		};
+		80B81DAB209DAAED001D05CE /* Func */ = {
+			isa = PBXGroup;
+			children = (
+				8083B81A209AFE89000ED4D8 /* TZMixFuncClassName.h */,
+				8083B81B209AFE89000ED4D8 /* TZMixFuncClassName.m */,
+				80A77B32209DA6B100D87954 /* TZMixFuncAssets.h */,
+				80A77B33209DA6B100D87954 /* TZMixFuncAssets.m */,
+				80F2BEDF20A0499C00035A32 /* TZMixFuncRubbishCode.h */,
+				80F2BEE020A0499C00035A32 /* TZMixFuncRubbishCode.m */,
+				80F2BEE220A04D4900035A32 /* TZMixFuncBase.h */,
+				80F2BEE320A04D4900035A32 /* TZMixFuncBase.m */,
+				8068120A20A17FB4003C7A14 /* TZMixFuncFunctionName.h */,
+				8068120B20A17FB4003C7A14 /* TZMixFuncFunctionName.m */,
+				8068120D20A1A097003C7A14 /* TZMixFuncPropertyName.h */,
+				8068120E20A1A097003C7A14 /* TZMixFuncPropertyName.m */,
+				8068121020A1AF10003C7A14 /* NSString+Regex.h */,
+				8068121120A1AF10003C7A14 /* NSString+Regex.m */,
+			);
+			path = Func;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8083B7EA209AF53A000ED4D8 /* TZMixTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8083B80A209AF53C000ED4D8 /* Build configuration list for PBXNativeTarget "TZMixTool" */;
+			buildPhases = (
+				D36D0BF2336B132C2D4F409F /* [CP] Check Pods Manifest.lock */,
+				8083B7E7209AF53A000ED4D8 /* Sources */,
+				8083B7E8209AF53A000ED4D8 /* Frameworks */,
+				8083B7E9209AF53A000ED4D8 /* Resources */,
+				D6829A30E5D82D7F9DAA0DB5 /* [CP] Embed Pods Frameworks */,
+				B2F0D0FA327EDCE3915D7BAC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TZMixTool;
+			productName = TZMixTool;
+			productReference = 8083B7EB209AF53A000ED4D8 /* TZMixTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8083B800209AF53C000ED4D8 /* TZMixToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8083B80D209AF53C000ED4D8 /* Build configuration list for PBXNativeTarget "TZMixToolTests" */;
+			buildPhases = (
+				8083B7FD209AF53C000ED4D8 /* Sources */,
+				8083B7FE209AF53C000ED4D8 /* Frameworks */,
+				8083B7FF209AF53C000ED4D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8083B803209AF53C000ED4D8 /* PBXTargetDependency */,
+			);
+			name = TZMixToolTests;
+			productName = TZMixToolTests;
+			productReference = 8083B801209AF53C000ED4D8 /* TZMixToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8083B7E3209AF53A000ED4D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = CTZ;
+				TargetAttributes = {
+					8083B7EA209AF53A000ED4D8 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					8083B800209AF53C000ED4D8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8083B7EA209AF53A000ED4D8;
+					};
+				};
+			};
+			buildConfigurationList = 8083B7E6209AF53A000ED4D8 /* Build configuration list for PBXProject "TZMixTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8083B7E2209AF53A000ED4D8;
+			productRefGroup = 8083B7EC209AF53A000ED4D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8083B7EA209AF53A000ED4D8 /* TZMixTool */,
+				8083B800209AF53C000ED4D8 /* TZMixToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8083B7E9209AF53A000ED4D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8083B7F5209AF53B000ED4D8 /* Assets.xcassets in Resources */,
+				8083B7F8209AF53B000ED4D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8083B7FF209AF53C000ED4D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2F0D0FA327EDCE3915D7BAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TZMixTool/Pods-TZMixTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D36D0BF2336B132C2D4F409F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TZMixTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6829A30E5D82D7F9DAA0DB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TZMixTool/Pods-TZMixTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8083B7E7209AF53A000ED4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8083B7F3209AF53A000ED4D8 /* ViewController.m in Sources */,
+				8083B7FB209AF53B000ED4D8 /* main.m in Sources */,
+				8083B81C209AFE89000ED4D8 /* TZMixFuncClassName.m in Sources */,
+				8083B7F0209AF53A000ED4D8 /* AppDelegate.m in Sources */,
+				8083B817209AF587000ED4D8 /* TZMixManager.m in Sources */,
+				8068121220A1AF10003C7A14 /* NSString+Regex.m in Sources */,
+				8083B813209AF57E000ED4D8 /* JQFMDB.m in Sources */,
+				8032FC57209C4604009A9753 /* TZMixCacheFile.m in Sources */,
+				807984D0209F3D0D006F89C4 /* TZMixConfig.m in Sources */,
+				80A77B34209DA6B100D87954 /* TZMixFuncAssets.m in Sources */,
+				8068120C20A17FB4003C7A14 /* TZMixFuncFunctionName.m in Sources */,
+				8068120F20A1A097003C7A14 /* TZMixFuncPropertyName.m in Sources */,
+				80F2BEE120A0499C00035A32 /* TZMixFuncRubbishCode.m in Sources */,
+				80F2BEE420A04D4900035A32 /* TZMixFuncBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8083B7FD209AF53C000ED4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8083B806209AF53C000ED4D8 /* TZMixToolTests.m in Sources */,
+				8083B814209AF57E000ED4D8 /* JQFMDB.m in Sources */,
+				8032FC58209C4604009A9753 /* TZMixCacheFile.m in Sources */,
+				8083B818209AF587000ED4D8 /* TZMixManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8083B803209AF53C000ED4D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8083B7EA209AF53A000ED4D8 /* TZMixTool */;
+			targetProxy = 8083B802209AF53C000ED4D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8083B7F6209AF53B000ED4D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8083B7F7209AF53B000ED4D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8083B808209AF53C000ED4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8083B809209AF53C000ED4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8083B80B209AF53C000ED4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4ECB532550E3F60E2CDABBF /* Pods-TZMixTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TZMixTool/TZMixTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N4E624AAS8;
+				INFOPLIST_FILE = TZMixTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuangguan.TZMixTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8083B80C209AF53C000ED4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C0698440D33341BCD04DF0 /* Pods-TZMixTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TZMixTool/TZMixTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N4E624AAS8;
+				INFOPLIST_FILE = TZMixTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuangguan.TZMixTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8083B80E209AF53C000ED4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N4E624AAS8;
+				INFOPLIST_FILE = TZMixToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuangguan.TZMixToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZMixTool.app/Contents/MacOS/TZMixTool";
+			};
+			name = Debug;
+		};
+		8083B80F209AF53C000ED4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N4E624AAS8;
+				INFOPLIST_FILE = TZMixToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuangguan.TZMixToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZMixTool.app/Contents/MacOS/TZMixTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8083B7E6209AF53A000ED4D8 /* Build configuration list for PBXProject "TZMixTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8083B808209AF53C000ED4D8 /* Debug */,
+				8083B809209AF53C000ED4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8083B80A209AF53C000ED4D8 /* Build configuration list for PBXNativeTarget "TZMixTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8083B80B209AF53C000ED4D8 /* Debug */,
+				8083B80C209AF53C000ED4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8083B80D209AF53C000ED4D8 /* Build configuration list for PBXNativeTarget "TZMixToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8083B80E209AF53C000ED4D8 /* Debug */,
+				8083B80F209AF53C000ED4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8083B7E3209AF53A000ED4D8 /* Project object */;
+}
