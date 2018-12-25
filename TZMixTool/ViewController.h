@@ -28,6 +28,7 @@
 @property (weak) IBOutlet NSButton *isClassPrefixCheckBox;
 @property (weak) IBOutlet NSButton *isReverseIngoreCheckBox;
 @property (weak) IBOutlet NSButton *isAddRubbishCodeCheckBox;
+@property (weak) IBOutlet NSButton *isDeleteNamedColorCheckBox;
 
 @property (weak) IBOutlet NSButton *startButton;
 

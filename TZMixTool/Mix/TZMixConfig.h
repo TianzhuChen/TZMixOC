@@ -21,6 +21,7 @@
 @property (nonatomic,assign) BOOL isMixFuncName;
 @property (nonatomic,assign) BOOL isAddRubbishCode;
 @property (nonatomic,assign) BOOL isAddClassPrefix;
+@property (assign, nonatomic) BOOL isDeleteNamedColor;
 -(instancetype)initWithConfig:(NSDictionary *)config;
 -(void)saveToLocalFile;
 @end

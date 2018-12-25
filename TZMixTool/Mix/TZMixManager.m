@@ -11,6 +11,7 @@
 #import "TZMixFuncAssets.h"
 #import "TZMixFuncRubbishCode.h"
 #import "TZMixFuncPropertyName.h"
+#import "TZMixDeleteNamedColor.h"
 
 @interface TZMixManager()
 {
@@ -84,13 +85,17 @@
 				TZMixFuncPropertyName *propertyName=[[TZMixFuncPropertyName alloc] init];
 				[propertyName start];
 			}
+            if(self.config.isDeleteNamedColor){
+                TZMixDeleteNamedColor *deleteColor=[[TZMixDeleteNamedColor alloc] init];
+                [deleteColor start];
+            }
 			[self saveToLocal];
-			if(self.completeBlock){
-				dispatch_async(dispatch_get_main_queue(), ^{
-					self.completeBlock();
-				});
-				
-			}
+            if(self.completeBlock){
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    self.completeBlock();
+                });
+                
+            }
 			
 		}
 	});
@@ -191,10 +196,17 @@
 }
 -(void)updateLog:(NSString *)log
 {
-	NSLog(@"%@",log);
-	[self willChangeValueForKey:@"logStr"];
-	[self.logStr appendString:[log stringByAppendingString:@"\n"]];
-	[self didChangeValueForKey:@"logStr"];
+//    NSLog(@"%@",log);
+    dispatch_async(dispatch_get_main_queue(), ^{
+       [self.logStr appendString:[log stringByAppendingString:@"\n"]];
+        
+       self.logView.string=self.logStr;
+    });
+
+    
+//    [self willChangeValueForKey:@"logStr"];
+//    [self.logStr appendString:[log stringByAppendingString:@"\n"]];
+//    [self didChangeValueForKey:@"logStr"];
 }
 #pragma mark - 私有
 -(NSString *)_createMixName:(NSArray<NSString *> *)nameArray prefixName:(NSString *)prefixName maxLength:(NSInteger)maxLength

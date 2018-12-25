@@ -82,14 +82,14 @@
 }
 -(void)save
 {
-	if(_content){
+	if(_content && self.isNeedSave){
 		NSError *error;
 //		NSLog(@"写入文件路径>>>%@",[self newPath]);
 		[_content writeToFile:self.newPath atomically:YES encoding:NSUTF8StringEncoding error:&error];
 		if(error){
 			NSLog(@"文件写入出错>>>%@--%@",self.path,[self newPath]);
 		}else{
-			if(![self.newPath isEqualToString:self.path]){//如果路径没变，不需要删除
+			if([self.newPath isEqualToString:self.path]==NO){//如果路径改变，需要删除旧文件
 				[[NSFileManager defaultManager] removeItemAtPath:self.path error:nil];
 			}
 			

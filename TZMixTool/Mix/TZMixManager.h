@@ -16,6 +16,7 @@
 
 typedef void(^TZMixCompleteBlock)(void);
 @interface TZMixManager : NSObject
+@property (weak, nonatomic) NSTextView *logView;
 @property (nonatomic,copy,readonly) NSString *dbPath;
 @property (nonatomic,strong,readonly) TZMixConfig *config;
 @property (nonatomic,copy) NSString *modifiedClassNamePrefix;//修改后的类名前缀，只有在isAddClassPrefix为yes时使用

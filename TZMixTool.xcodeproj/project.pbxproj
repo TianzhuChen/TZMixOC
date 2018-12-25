@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048FD0A621D1D13700D20D42 /* TZMixDeleteNamedColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FD0A521D1D13700D20D42 /* TZMixDeleteNamedColor.m */; };
 		8032FC57209C4604009A9753 /* TZMixCacheFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032FC56209C4604009A9753 /* TZMixCacheFile.m */; };
 		8032FC58209C4604009A9753 /* TZMixCacheFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032FC56209C4604009A9753 /* TZMixCacheFile.m */; };
 		8068120C20A17FB4003C7A14 /* TZMixFuncFunctionName.m in Sources */ = {isa = PBXBuildFile; fileRef = 8068120B20A17FB4003C7A14 /* TZMixFuncFunctionName.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		048FD0A421D1D13700D20D42 /* TZMixDeleteNamedColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZMixDeleteNamedColor.h; sourceTree = "<group>"; };
+		048FD0A521D1D13700D20D42 /* TZMixDeleteNamedColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZMixDeleteNamedColor.m; sourceTree = "<group>"; };
 		1790602F01ED806F5C8F95DE /* libPods-TZMixTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TZMixTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8032FC55209C4604009A9753 /* TZMixCacheFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZMixCacheFile.h; sourceTree = "<group>"; };
 		8032FC56209C4604009A9753 /* TZMixCacheFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZMixCacheFile.m; sourceTree = "<group>"; };
@@ -100,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04D6428F21D1E07A00DDE5C3 /* DeleteNamedColor */ = {
+			isa = PBXGroup;
+			children = (
+				048FD0A421D1D13700D20D42 /* TZMixDeleteNamedColor.h */,
+				048FD0A521D1D13700D20D42 /* TZMixDeleteNamedColor.m */,
+			);
+			path = DeleteNamedColor;
+			sourceTree = "<group>";
+		};
 		2D9305DEF815772BDD767BCB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +202,7 @@
 		80B81DAB209DAAED001D05CE /* Func */ = {
 			isa = PBXGroup;
 			children = (
+				04D6428F21D1E07A00DDE5C3 /* DeleteNamedColor */,
 				8083B81A209AFE89000ED4D8 /* TZMixFuncClassName.h */,
 				8083B81B209AFE89000ED4D8 /* TZMixFuncClassName.m */,
 				80A77B32209DA6B100D87954 /* TZMixFuncAssets.h */,
@@ -219,8 +232,6 @@
 				8083B7E7209AF53A000ED4D8 /* Sources */,
 				8083B7E8209AF53A000ED4D8 /* Frameworks */,
 				8083B7E9209AF53A000ED4D8 /* Resources */,
-				D6829A30E5D82D7F9DAA0DB5 /* [CP] Embed Pods Frameworks */,
-				B2F0D0FA327EDCE3915D7BAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,21 +322,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B2F0D0FA327EDCE3915D7BAC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TZMixTool/Pods-TZMixTool-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D36D0BF2336B132C2D4F409F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,21 +340,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D6829A30E5D82D7F9DAA0DB5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TZMixTool/Pods-TZMixTool-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -366,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048FD0A621D1D13700D20D42 /* TZMixDeleteNamedColor.m in Sources */,
 				8083B7F3209AF53A000ED4D8 /* ViewController.m in Sources */,
 				8083B7FB209AF53B000ED4D8 /* main.m in Sources */,
 				8083B81C209AFE89000ED4D8 /* TZMixFuncClassName.m in Sources */,
@@ -533,7 +515,7 @@
 				CODE_SIGN_ENTITLEMENTS = TZMixTool/TZMixTool.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = N4E624AAS8;
+				DEVELOPMENT_TEAM = YYWT732AA5;
 				INFOPLIST_FILE = TZMixTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -552,7 +534,7 @@
 				CODE_SIGN_ENTITLEMENTS = TZMixTool/TZMixTool.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = N4E624AAS8;
+				DEVELOPMENT_TEAM = YYWT732AA5;
 				INFOPLIST_FILE = TZMixTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

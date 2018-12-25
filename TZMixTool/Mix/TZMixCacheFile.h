@@ -20,6 +20,7 @@
 @property (nonatomic,assign,readonly) BOOL isMFile;//是否为实现文件
 @property (nonatomic,assign,readonly) BOOL  isProjectConfigFile;//是否为项目配置文件
 @property (nonatomic,assign,readonly) BOOL isCategory;//是否为分类
+@property (assign, nonatomic) BOOL isNeedSave;//是否需要保存
 @property (nonatomic,copy) NSString *categoryfirstName;
 @property (nonatomic,copy) NSString *categoryLastName;
 

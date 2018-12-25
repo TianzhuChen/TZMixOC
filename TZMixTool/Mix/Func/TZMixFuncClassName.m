@@ -125,6 +125,7 @@
 			modifyName:(NSString *)modifyName
 			 cacheFile:(TZMixCacheFile *)cacheFile
 {
+    cacheFile.isNeedSave=YES;
 	if(cacheFile.isProjectConfigFile){//如果是项目文件需要特殊处理替换
 		[self modifyClassNameInProejctConfigFile:oldName
 									  modifyName:modifyName
@@ -151,6 +152,7 @@
 							   modifyName:(NSString *)modifyName
 								cacheFile:(TZMixCacheFile *)cacheFile
 {
+    cacheFile.isNeedSave=YES;
 	//	if(self.isCategory){//如果是分类要对+进行转义
 	//		oldName=[oldName stringByReplacingOccurrencesOfString:@"+" withString:@"\\+"];
 	//	}

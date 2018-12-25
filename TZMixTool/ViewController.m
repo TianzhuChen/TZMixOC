@@ -15,10 +15,11 @@
 	NSString *temp=@"ctz+temp.h";
 	NSLog(@"temp>>>>>%@",temp.pathExtension);
 	mixManager=[TZMixManager SharedManager];
-	[mixManager addObserver:self
-				 forKeyPath:@"logStr"
-					options:NSKeyValueObservingOptionNew
-					context:nil];
+    mixManager.logView=self.logTextView;
+//    [mixManager addObserver:self
+//                 forKeyPath:@"logStr"
+//                    options:NSKeyValueObservingOptionNew
+//                    context:nil];
 	// Do any additional setup after loading the view.
 }
 - (void)setRepresentedObject:(id)representedObject {
@@ -26,14 +27,15 @@
 	
 	// Update the view, if already loaded.
 }
--(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
-{
-	__weak TZMixManager *weakMix=mixManager;
-	dispatch_async(dispatch_get_main_queue(), ^{
-		self.logTextView.string=weakMix.logStr;
-	});
-	
-}
+//-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
+//{
+//    __weak TZMixManager *weakMix=mixManager;
+//    dispatch_async(dispatch_get_main_queue(), ^{
+//        NSLog(@"日志>>>%@",weakMix.logStr);
+//        self.logTextView.string=weakMix.logStr;
+//    });
+//
+//}
 - (IBAction)startMixHandle:(NSButton *)sender {
 	TZMixConfig *config=[[TZMixConfig alloc] init];
 	
@@ -44,6 +46,7 @@
 	config.isMixFuncName=self.funcMixCheckBox.state==NSControlStateValueOn?YES:NO;
 	config.isAddClassPrefix=self.isClassPrefixCheckBox.state==NSControlStateValueOn?YES:NO;
 	config.isAddRubbishCode=self.isAddRubbishCodeCheckBox.state==NSControlStateValueOn?YES:NO;
+    config.isDeleteNamedColor=self.isDeleteNamedColorCheckBox.state==NSControlStateValueOn?YES:NO;
 	config.classNameArray=[self.classNameTextView.string componentsSeparatedByString:@","];
 	config.ingoreFolderArray=[self.ingoreFolderTextView.string componentsSeparatedByString:@","];
 	config.modifyFileTypeArray=[self.modifyFileTypeTextView.string componentsSeparatedByString:@","];
@@ -78,6 +81,7 @@
 	config.isMixFuncName=self.funcMixCheckBox.state==NSControlStateValueOn?YES:NO;
 	config.isAddClassPrefix=self.isClassPrefixCheckBox.state==NSControlStateValueOn?YES:NO;
 	config.isAddRubbishCode=self.isAddRubbishCodeCheckBox.state==NSControlStateValueOn?YES:NO;
+    config.isDeleteNamedColor=self.isDeleteNamedColorCheckBox.state==NSControlStateValueOn?YES:NO;
 	config.classNameArray=[self.classNameTextView.string componentsSeparatedByString:@","];
 	config.ingoreFolderArray=[self.ingoreFolderTextView.string componentsSeparatedByString:@","];
 	config.modifyFileTypeArray=[self.modifyFileTypeTextView.string componentsSeparatedByString:@","];
@@ -115,6 +119,7 @@
 	self.funcMixCheckBox.state=config.isMixFuncName?NSControlStateValueOn:NSControlStateValueOff;
 	self.isClassPrefixCheckBox.state=config.isAddClassPrefix?NSControlStateValueOn:NSControlStateValueOff;
 	self.isAddRubbishCodeCheckBox.state=config.isAddRubbishCode?NSControlStateValueOn:NSControlStateValueOff;
+    self.isDeleteNamedColorCheckBox.state=config.isDeleteNamedColor?NSControlStateValueOn:NSControlStateValueOff;
 	self.classNameTextView.string=[config.classNameArray componentsJoinedByString:@","];
 	self.ingoreFolderTextView.string=[config.ingoreFolderArray componentsJoinedByString:@","];
 	self.modifyFileTypeTextView.string=[config.modifyFileTypeArray componentsJoinedByString:@","];

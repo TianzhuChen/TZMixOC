@@ -8,4 +8,5 @@ target 'TZMixTool' do
   # Pods for TZMixTool
 #  pod 'FMDBHelper', '~> 1.0.5'
   pod 'FMDB', '~> 2.7.2'
+  pod 'KissXML'
 end
